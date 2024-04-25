@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../CSS/Menu-page.css">
+</head>
+<body>
+    <script src="Menu-page.js"></script>
+
+    <div class="navbar">    <!-- This is to make a section for the nav bar -->
+        <div>
+            <a href="Home-page.html">
+                <img class="navbar-logo" src="../Images/Condesnsed logo (cropped).png">
+            </a>    <!-- Logo image for the nav bar -->
+        </div>
+        
+        <div>
+            <a href="About-page.html" class="nav-links">About Us</a>
+            <a href="#" class="nav-links">Contacts</a>
+            <a href="#" class="nav-links">Vendors</a>
+            <a href="Menu-page.html" class="nav-links">Menu</a>
+        </div>
+
+        <div>
+            <button class="order-now"><a href="../HTML/Order-page.html">Order Now</a></button>
+            <!-- Make this button with a link using Javascript-->
+        </div>
+    </div>
+
+    <div class="Title-name">
+        <P>
+            View Our Menu
+        </P>
+    </div>
+
+    <div class="rest-1">
+        <img src="../Images/dunkin.webp" class="vendor-image">
+        <button class="menuButton" data-target="firstDiv">
+            Menu
+        </button>
+    </div>
+
+    <div class="rest-1">
+        <img src="../Images/chickfila.png" class="vendor-image">
+        <button class="menuButton" data-target="secondDiv">
+            Menu
+        </button>
+    </div>
+
+    <div class="rest-1">
+        <img src="../Images/insomniacookies.png" class="vendor-image">
+        <button class="menuButton" data-target="thirdDiv">
+            Menu
+        </button>
+    </div>
+
+    <div class="pop-up-menu" id="firstDiv" style="display: none;">
+        <p>
+            Coffee - $3.00<br>
+            Donuts - $1.50
+        </p>
+    </div>
+    <div class="pop-up-menu" id="secondDiv" style="display: none;">
+        <p>Chicken Sandwich meal - $10.00 <br>
+        Chick-fil-a Nugget meal - $9.00 <br>
+        Salads - $11.50
+        </p>
+    </div>
+
+    <div class="pop-up-menu" id="thirdDiv" style="display: none;">
+        <p>
+            Cookies - $1.75<br>
+            Brownies - $2.50
+        </p>
+    </div>
+
+</body>
+</html>

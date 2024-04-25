@@ -1,0 +1,67 @@
+.navbar{    /* This is to style the div */
+    background-color:#121212;  /*rgb(85, 144, 255); */
+    height: 90px;
+    position: fixed;        /* This is to make the nav bar stick to the top when scrolling */
+    width: 100%;     /* This is to makethe nav bar span the entire width of the screen */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a{      /* This is to target the anchor tags within the list */
+    text-decoration: none;      /* Removing the underline from the nav bar links */
+    color: white;
+
+}
+
+.navbar-logo{
+    max-width: 150px;       /* This is to adjust the size of the logo and keep it a specific size */
+    height: auto;       /* This is make sure the the height doesn't get distorted and remains proportional to the specified height */
+    margin-left: 30px;      /* This is to give some space to the left of the logo */
+}
+
+.nav-links{
+    margin-right: 60px;
+    
+}
+
+.order-now{     /* Styling the order now button */
+    margin-right: 30px;
+    border-radius: 12px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #5CE1E6;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.order-now a{       /* This is targeting the button link to style it */
+    color: #5CE1E6;
+}
+
+.order-now:hover, .order-now:hover a{
+    background-color: #5CE1E6;
+    color: #121212;
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+}
+
+.hero-pic{
+    width: 1470px;
+}
+
+.vendors-section{
+    background-color: purple;
+}
+
+.our-vendors-div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
