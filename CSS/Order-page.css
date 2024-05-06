@@ -5,7 +5,7 @@
     background-color:#121212;  /*rgb(85, 144, 255); */
     height: 90px;
     /*position: fixed;         This is to make the nav bar stick to the top when scrolling */
-    width: 100%;     /* This is to makethe nav bar span the entire width of the screen */
+    width: 100%;     /* This is to make the nav bar span the entire width of the screen */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: flex;
@@ -24,6 +24,7 @@
     max-width: 150px;       /* This is to adjust the size of the logo and keep it a specific size */
     height: auto;       /* This is make sure the the height doesn't get distorted and remains proportional to the specified height */
     margin-left: 30px;      /* This is to give some space to the left of the logo */
+
 }
 
 .nav-links{
@@ -51,6 +52,7 @@
     cursor: pointer;
 }
 
+
 /* Below are styling for the ordering divs */
 
 .dunkin-ordering{
@@ -59,22 +61,21 @@
     flex-direction: row;
 }
 
-img{
-    height: 250px;
-    width: 250px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 20px;
-    border-color: rgb(220, 220, 220);
-
-}
-
 .food-image-divs{
     width: 252px;
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 20px;
 
+}
+
+.food-image-divs img{
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: rgb(220, 220, 220);
 }
 
 .chickfila-ordering{

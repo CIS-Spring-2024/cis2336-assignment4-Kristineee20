@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="../CSS/Menu-page.css">
+    <link rel="icon" type=image/png href="../Images/Small logo.png"> <!-- This is the image for the title bar -->
+
 </head>
 <body>
-    <script src="Menu-page.js"></script>
+    <script src="../Javascript/Menu-page.js"></script>
 
     <div class="navbar">    <!-- This is to make a section for the nav bar -->
         <div>
@@ -35,25 +37,48 @@
         </P>
     </div>
 
-    <div class="rest-1">
-        <img src="../Images/dunkin.webp" class="vendor-image">
-        <button class="menuButton" data-target="firstDiv">
-            Menu
-        </button>
-    </div>
+    <div class="all-resturants">
+        <div class="resturant-1">
+            <img src="../Images/dunkin donuts.png" class="vendor-image">
+            <button class="menuButton" data-target="firstDiv">
+                Menu
+            </button>
+        </div>
 
-    <div class="rest-1">
-        <img src="../Images/chickfila.png" class="vendor-image">
-        <button class="menuButton" data-target="secondDiv">
-            Menu
-        </button>
-    </div>
+        <div class="resturant-1">
+            <img src="../Images/chickfila.png" class="vendor-image">
+            <button class="menuButton" data-target="secondDiv">
+                Menu
+            </button>
+        </div>
 
-    <div class="rest-1">
-        <img src="../Images/insomniacookies.png" class="vendor-image">
-        <button class="menuButton" data-target="thirdDiv">
-            Menu
-        </button>
+        <div class="resturant-1">
+            <img src="../Images/insomniacookies.png" class="vendor-image">
+            <button class="menuButton" data-target="thirdDiv">
+                Menu
+            </button>
+        </div>
+
+        <div class="resturant-1">
+            <img src="/Images/chipotle logo.png" class="vendor-image">
+            <button class="menuButton" data-target="fourthDiv">
+                Menu
+            </button>
+        </div>
+
+        <div class="resturant-1">
+            <img src="../Images/the rice box.png" class="vendor-image">
+            <button class="menuButton" data-target="fifthDiv">
+                Menu
+            </button>
+        </div>
+
+        <div class="resturant-1">
+            <img src="../Images/zero degree boba.png" class="vendor-image">
+            <button class="menuButton" data-target="sixthDiv">
+                Menu
+            </button>
+        </div>
     </div>
 
     <div class="pop-up-menu" id="firstDiv" style="display: none;">
@@ -67,13 +92,29 @@
         Chick-fil-a Nugget meal - $9.00 <br>
         Salads - $11.50
         </p>
-    </div>
 
-    <div class="pop-up-menu" id="thirdDiv" style="display: none;">
         <p>
             Cookies - $1.75<br>
             Brownies - $2.50
         </p>
+    </div>
+
+    <div class="pop-up-menu2" id="thirdDiv" style="display: none;">
+        <div>
+            <img src="../Images/dunkin-coffe-cups.jpeg" class="pop-up-pics">
+            <p> Hot Coffee - $3.50</p>
+        </div>
+
+        <div>
+            <img src="../Images/dunkin-coffe-cups.jpeg" class="pop-up-pics">
+            <p> Hot Coffee - $3.50</p>
+        </div>
+
+        <div>
+            <img src="../Images/dunkin-coffe-cups.jpeg" class="pop-up-pics">
+            <p> Hot Coffee - $3.50</p>
+        </div>
+
     </div>
 
 </body>
