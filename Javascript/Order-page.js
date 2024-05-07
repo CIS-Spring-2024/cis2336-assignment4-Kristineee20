@@ -1,9 +1,9 @@
 document.addEventListener('click', function(e){
-    if(e.target.classList.contains('menuButton')){
+    if(e.target.classList.contains('look-at-menu-button')){
         var divId = e.target.getAttribute('data-target');
         var reqDiv = document.getElementById(divId);
 
-        var allDivs = document.querySelectorAll(".pop-up-menu");
+        var allDivs = document.querySelectorAll(".image-ordering");
         allDivs.forEach(function(div){
             if(div.id !== divId){
                 div.style.display = "none";
@@ -14,3 +14,7 @@ document.addEventListener('click', function(e){
         }
     }
 });
+
+
+//look-at-menu-button
+//.image-ordering

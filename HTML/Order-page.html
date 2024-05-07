@@ -6,6 +6,7 @@
     <title>Order Here</title>
     <link rel="stylesheet" href="../CSS/Order-page.css">
     <link rel="icon" type=image/png href="../Images/Small logo.png"> <!-- This is the image for the title bar -->
+    <script src="../Javascript/Order-page.js"></script>
 
 </head>
 
@@ -30,56 +31,100 @@
         </div>
     </div>
 
-    <select>
+    <!--
+    <select class="order-dropdown">
         <option value="" selected=>Select a resturant</option>
-        <option>Dunkin Donuts</option>
-        <option>Chick-Fil-A</option>
-        <option>Insomnia Cookies</option>
+        <option class="order-dropdown" data-target="dunkin-order">Dunkin Donuts</option>
+        <option data-target="chickfila-order">Chick-Fil-A</option>
+        <option data-target="insomnia-order">Insomnia Cookies</option>
     </select>
+-->
 
-    <div class="dunkin-ordering">
+    <div>
+        <button class="look-at-menu-button" data-target="dunkin-order">
+            Dunkin Donuts
+        </button>
+
+        <button class="look-at-menu-button" data-target="chickfila-order">
+            Chick-Fil-A
+        </button>
+
+        <button class="look-at-menu-button" data-target="insomnia-order">
+            Insomnia Cookies
+        </button>
+
+        <button class="look-at-menu-button" data-target="dunkin-order">
+            Chipotle
+        </button>
+    </div>
+    
+
+    <div class="image-ordering" id="dunkin-order" style="display: none;">
         <div class="food-image-divs">
             <img src="../Images/dunkin-coffe-cups.jpeg">
             <p> Hot Coffee</p>
             <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <p>$3.50</p>
         </div>
 
         <div class="food-image-divs">
             <img src="../Images/dunkin-coffe-cups.jpeg">
             <p> Iced Coffee</p>
             <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <p>$5.00</p>
         </div>
 
         <div class="food-image-divs">
             <img src="../Images/dunkin-coffe-cups.jpeg">
             <p> Frozen Coffee</p>
             <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <p>$6.00</p>
         </div>
     </div>
 
-    <div class="chickfila-ordering">
+    <div class="image-ordering" id="chickfila-order" style="display: none;">
         <div class="food-image-divs">
-            <img src="../Images/dunkin-coffe-cups.jpeg">
-            <p>Chicken Sandwich</p>
-            <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <img src="../Images/chicken sandwich.png">
+            <p>Chicken Sandwich Meal</p>
+            <p>Our world famous chicken, cooked to perfection!</p>
+            <p>$10.00</p>
         </div>
 
         <div class="food-image-divs">
-            <img src="../Images/dunkin-coffe-cups.jpeg">
-            <p>Deluxe Chicken Sandwich</p>
-            <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <img src="../Images/deluxe sandwich.png">
+            <p>Deluxe Chicken Sandwich Meal</p>
+            <p>Our world famous chicken, cooked to perfection!</p>
+            <p>$12.00</p>
         </div>
 
         <div class="food-image-divs">
-            <img src="../Images/dunkin-coffe-cups.jpeg">
-            <p>Chicken Nugget Meal</p>
-            <p>Our world famous coffee, brewed to perfection!</p>
-            <p>$ Price</p>
+            <img src="../Images/chicken tenders.png">
+            <p>Chicken Tender Meal</p>
+            <p>Our world famous chicken, cooked to perfection!</p>
+            <p>$10.00</p>
+        </div>
+    </div>
+
+    <div class="image-ordering" id="insomnia-order" style="display: none;">
+        <div class="food-image-divs">
+            <img src="../Images/insomnia classic cookie.png">
+            <p>Classic Cookies</p>
+            <p>Our world famous cookies, baked to perfection!</p>
+            <p>$2.75</p>
+        </div>
+
+        <div class="food-image-divs">
+            <img src="../Images/insomnia deluxe cookie.png">
+            <p>Deluxe Cookies</p>
+            <p>Our world famous cookies, baked to perfection!</p>
+            <p>$4.25</p>
+        </div>
+
+        <div class="food-image-divs">
+            <img src="../Images/insomnia brownies.png">
+            <p>Brownies</p>
+            <p>Our world famous cookies, baked to perfection!</p>
+            <p>$4.25</p>
         </div>
     </div>
     

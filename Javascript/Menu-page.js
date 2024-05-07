@@ -3,7 +3,7 @@ document.addEventListener('click', function(e){
         var divId = e.target.getAttribute('data-target');
         var reqDiv = document.getElementById(divId);
 
-        var allDivs = document.querySelectorAll(".pop-up-menu2");
+        var allDivs = document.querySelectorAll(".pop-up-menu");
         allDivs.forEach(function(div){
             if(div.id !== divId){
                 div.style.display = "none";

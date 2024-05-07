@@ -55,15 +55,15 @@
 
 /* Below are styling for the ordering divs */
 
-.dunkin-ordering{
-    background-color: lightsalmon;
+.image-ordering{
+    /*background-color: lightsalmon;*/
     display: flex;
     flex-direction: row;
 }
 
 .food-image-divs{
     width: 252px;
-    background-color: pink;
+    /*background-color: pink;*/
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 20px;
 
@@ -78,8 +78,40 @@
     border-color: rgb(220, 220, 220);
 }
 
-.chickfila-ordering{
+.look-at-menu-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #5CE1E6;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.look-at-menu-button:hover{
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-color: #5CE1E6;
+    color: #5CE1E6;
+    background-color: white;
+    padding: 9px;  /* Taking off 1px of padding to account for adding space from the border width so the button doesn't change shape */
+    padding-left: 24px;
+    padding-right: 24px;
+    /*background-color: #c9b7fe;*/
+
+}
+/*.chickfila-ordering{
     background-color: lightgreen;
     display: flex;
     flex-direction: row;
 }
+
+.insomnia-cookies-ordering{
+    background-color: lavender;
+    display: flex;
+    flex-direction: row;
+} */
